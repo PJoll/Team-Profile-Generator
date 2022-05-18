@@ -12,5 +12,9 @@ describe("Manager", () => {
         const manager = new Manager ("Apricat", 5 ,"Tabby@email.com", 82165021);
         expect(manager.getRole).toBe(testRole)
     });
-    it ("")
+    it ("Should return office Number from getOffice()", () => {
+        const testOfficenumber = 82165021;
+        const manager = new Manager ("Apricat", 5 ,"Tabby@email.com", testOfficenumber);
+        expect(manager.getOfficeNumber()).toBe(testOfficenumber);
+    })
 })
