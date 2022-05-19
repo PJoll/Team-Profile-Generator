@@ -13,9 +13,9 @@ describe("Manager", () => {
         expect(manager.getRole).toBe(testRole)
     });
     it ("Should return office Number from getOffice()", () => {
-        const testOfficenumber = "82165021";
-        const manager = new Manager ("Apricat", 5 ,"Tabby@email.com", testOfficenumber);
+        const testofficenumber = "82165021";
+        const manager = new Manager ("Apricat", 5 ,"Tabby@email.com", testofficenumber);
         console.log(manager);
-        expect(manager.officeNumber).toBe(testOfficenumber);
+        expect(manager.officeNumber).toBe(testofficenumber);
     })
 })

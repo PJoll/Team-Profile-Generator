@@ -14,6 +14,7 @@ describe ("Engineer",() => {
     it("Should return Engineer github from getGithub", () => {
         const testGit = "githubTab";
         const eng = new Engineer("Apricat", 5 ,"Tabby@email.com", testGit)
+        console.log(eng);
         expect(eng.github).toBe(testGit);
     })
     });
